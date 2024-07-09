@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPeças </title>
+    <script src="./pacotes/jquery-3.7.1.min.js" type="text/javascript" defer></script>
+    <script src="./pacotes/jquery.mask.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link 
+ href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+    <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/carousel.css">
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+    
+<body>
+    <header>
+        <nav class="cabecalho__container">
+        <div class="cabecalho__logo">
+            <img class="logo" src="./imagens/auto-parts-2.png">
+        </div>
+            <div class="cabecalho__pesquisar">
+                <form action="" class="form__pesquisa">
+                    <input type="search" class="pesquisar__input" placeholder="    pesquisar">
+                    <img src="./imagens/keyboard.png" class="pesquisar__input-teclado">
+    
+                    <button class="pesquisar__btn">
+                        <img src="./imagens/search.png" alt="icone de lupa ">
+                    </button>
+                </form>
+            </div>
+            <div class="cabecalho__atendimento">
+                <div class ="dropdown">
+                    <i class="bi bi-chat-left-text"></i>
+                    <button class="cabecalho__atendimento-botao"> <span class="cabecalho__atendimento-central">Central de</span><br> <label class="cabecalho__atendimento-atendimento">atendimento▾</label> </button>
+                  <div id="dropdown-options-atendimento" class="dropdown-options-atendimento">
+                    <img  class="cabecalho__atendimento-icone"  src="./imagens/whatsapp.248x256.png"> Whatapp:<br>
+                    <a href="#">(XX)XXXXX-XXXX</a>
+                    <a href="#">(XX)XXXXX-XXXX</a>
+                    <hr>
+                    <img  class="cabecalho__atendimento-icone"  src="./imagens/o-email.png"> Email:<br>
+                    
+                    <label style="margin-left: 10px;">   LoremIpsum@hotmail.com.br</label>
+                    <hr>
+                    <img  class="cabecalho__atendimento-icone"  src="./imagens/relogio.png" title="relógio ícones"> Horario de atendimento:</a>
+                    <br>
+                    <label style="margin-left: 10px;">   Segunda a sexta das 8:00 ás 18:00</label>
+                  </div>
+                </div> 
+              </div>
+            <div class="cabecalho__cadastro">
+                <div class="dropdown">
+                <div class="cadastro__imagem">
+                <a class="cadastro__link" href="*"><i class="bi bi-person" id="cabecalho__cadastro-icone"></i> <label id="cabecalho__atendimento-texto">Login ou</label>
+                    <label id="cabecalho__atendimento-texto" ><strong>Cadastrar</strong></label></a>
+                <div id="dropdown-options-cadastro" class="dropdown-options-cadastro">
+                    <div id="cabecalho__cadastro-parte1">
+                        <img class="cadastro__imagem"  id="avatar" src="imagens/account_circle_24dp_FILL0_wght400_GRAD0_opsz24.png">
+                    </div>
+
+                    <div id="cabecalho__cadastro-parte1">
+                        <span>Ola,<br>
+                        Bem vindo!</span><br><br>
+                    </div>
+                    <div id="cadastro">
+                        <a id="minha_conta" href="#">Minha conta</a>
+                        <br>
+                        <a id="minha_conta" href="#">Cadastrar</a>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+            <div class="cabecalho_carrinho">
+                <i class="bi bi-cart"></i><span>Meu Carrinho<br>R$:</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+<footer>
+    <section id="home" class="d-flex"><!--home -->
+        <div class="container align-self-center"><!--container -->
+          <div class="row"><!--row -->
+            <div class="col-md-12 capa">
+              
+              <div id="carousel-logo" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner"><!--Inner -->
+                  
+                  <div class="carousel-item active">
+                        <img class="logo_imagem" src="./imagens/auto-parts-2.png">
+                         <img class="logo_imagem" src="./imagens/auto-parts-2.png">
+                         <img class="logo_imagem" src="./imagens/auto-parts-2.png">
+                         <img class="logo_imagem" src="./imagens/auto-parts-2.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="logo_imagem" src="./imagens/logo-no-background.png">
+                    <img class="logo_imagem" src="./imagens/logo-no-background.png">
+                    <img class="logo_imagem" src="./imagens/logo-no-background.png">
+                    <img class="logo_imagem" src="./imagens/logo-no-background.png">
+                  </div>
+                </div><!--/Inner -->
+  
+                <!-- Controles -->
+              </div>
+
+              <a href="#carousel-logo" class="carousel-control-prev" data-slide="prev">
+                <i class="fas fa-angle-left fa-3x"></i>
+              </a>
+
+              <a href="#carousel-logo" class="carousel-control-next" data-slide="next">
+                <i class="fas fa-angle-right fa-3x"></i>
+              </a>
+  
+            </div>
+          </div><!--/row -->
+        </div><!--/container -->
+      </section><!--/home -->
+
+      <section id="home" class="email_flex">
+      <div class="footer_email">
+     <i class="bi-envelope" style="font-size:32px;"></i> <span style="font-weight:bold;margin-left:5px;font-size:20px;"  ;> Cadastre seu email em nossa lista de descontos</span>
+     <input type="email" class="email_input">  <button type="button" class="btn btn-secondary" style="margin-left:25px;">Cadastrar</button>
+      </div>
+       </section><!--/home -->
+
+       <div class="footer_pagamento">
+        
+        <div class="formas_pagamento">
+        <span class="titulo">Formas de pagamento</span> <br>
+        <i class="bi bi-credit-card pagamento"></i>
+        <i class="fab fa-cc-mastercard pagamento"></i>
+        <i class="bi bi-credit-card pagamento"></i>
+        <img class="cartao" src="./imagens/visa.256x79.png"/><br>
+        <div class="formas_pagamento_vista">
+        <img src="https://cdn.awsli.com.br/production/static/img/formas-de-pagamento/boleto-logo.png?v=d7af323">
+        <img src="https://cdn.awsli.com.br/production/static/img/formas-de-pagamento/pix-logo.png?v=d7af323">
+        </div>
+      </div>
+
+      <span class="titulo"  id="selo"> Selos de segurança</span>
+      <div class="formas_pagamento selo"><br>
+        <img class="img_position" src="https://cdn.awsli.com.br/production/static/img/struct/stamp_encryptssl.png">
+      </div>
+       
+     </div>
+
+
+    <div class="footer_outros">
+      <p id="reservado">********************************************** - CNPJ: 00.000.000/0000-00 © Todos os direitos reservados. 2024 </p> 
+      <h3>Desenvolvido por <i><stron>Kliven & ...</stron></i></h3>  
+     </div>
+   
+</footer>
+
+</html>
